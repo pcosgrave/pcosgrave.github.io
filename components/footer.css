@@ -44,7 +44,7 @@
   background-position: center;
 }
 .footer-container:hover {
-  background-image: url("/blueicon-200h.png");
+  background-image: url("public/blueicon-200h.png");
 }
 .footer-image {
   width: 60%;
@@ -64,11 +64,11 @@
   background-size: cover;
   justify-content: center;
   text-decoration: none;
-  background-image: url("/whiteicon-200h.png");
+  background-image: url("public/whiteicon-200h.png");
   background-position: center;
 }
 .footer-container1:hover {
-  background-image: url("/blueicon-200h.png");
+  background-image: url("public/blueicon-200h.png");
 }
 .footer-image1 {
   width: 60%;
@@ -88,11 +88,11 @@
   background-size: cover;
   justify-content: center;
   text-decoration: none;
-  background-image: url("/whiteicon-200h.png");
+  background-image: url("public/whiteicon-200h.png");
   background-position: center;
 }
 .footer-container2:hover {
-  background-image: url("/blueicon-200h.png");
+  background-image: url("public/blueicon-200h.png");
 }
 .footer-image2 {
   width: 60%;
@@ -112,11 +112,11 @@
   background-size: cover;
   justify-content: center;
   text-decoration: none;
-  background-image: url("/whiteicon-200h.png");
+  background-image: url("public/whiteicon-200h.png");
   background-position: center;
 }
 .footer-container3:hover {
-  background-image: url("/blueicon-200h.png");
+  background-image: url("public/blueicon-200h.png");
 }
 .footer-image3 {
   width: 60%;
