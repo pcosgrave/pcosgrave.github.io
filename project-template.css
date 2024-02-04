@@ -473,9 +473,11 @@
   width: 820px;
   display: flex;
   max-width: 900px;
-  align-self: flex-start;
+  align-self: center;
   align-items: flex-start;
   flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .project-template-text2 {
   gap: var(--dl-space-space-threeunits);
@@ -551,8 +553,6 @@
   }
   .project-template-paragraph {
     width: auto;
-    font-size: 32px;
-    line-height: 48px;
   }
 }
 @media(max-width: 479px) {
