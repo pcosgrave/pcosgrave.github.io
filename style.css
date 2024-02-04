@@ -113,6 +113,22 @@
 .link:hover {
   opacity: 0.5;
 }
+.ProjectItemLink {
+  gap: var(--dl-space-space-unit);
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+  align-items: center;
+  border-color: #151515;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+  border-bottom-width: 1px;
+}
+.ProjectItemLink:hover {
+  opacity: 0.5;
+}
 .heading {
   color: #151515;
   font-size: 80px;
@@ -132,7 +148,7 @@
   padding-bottom: 20px;
   background-color: #235536;
 }
-.service {
+.ProjectItem {
   width: 854px;
   cursor: pointer;
   display: flex;
@@ -145,8 +161,8 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.service:hover {
-  opacity: 0.5;
+.ProjectItem:hover {
+  color: #009bed;
 }
 .social {
   color: rgb(21, 21, 21);
@@ -160,6 +176,7 @@
 .social:hover {
   opacity: 0.5;
 }
+
 .Content {
   font-size: 16px;
   font-family: Noto Sans;
@@ -170,6 +187,10 @@
 }
 @media(max-width: 991px) {
   .link {
+    padding-bottom: 0px;
+    border-bottom-width: 0px;
+  }
+  .ProjectItemLink {
     padding-bottom: 0px;
     border-bottom-width: 0px;
   }

@@ -1,0 +1,123 @@
+.project-template-prehistoric-planet {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  background-color: #151515;
+}
+.project-template-header {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  max-width: 1280px;
+  align-self: flex-start;
+  padding-top: 50;
+  flex-direction: column;
+  padding-bottom: 50;
+}
+.project-template-text {
+  color: #ffffff;
+  font-size: 60px;
+}
+.project-template-image {
+  width: 100%;
+  cursor: pointer;
+  height: 397px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-template-description {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 1280px;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  border-color: #151515;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-white);
+  border-top-width: 1px;
+}
+.project-template-content {
+  gap: var(--dl-space-space-threeunits);
+  width: 820px;
+  display: flex;
+  max-width: 900px;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-template-text1 {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-template-paragraph {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+
+
+
+
+
+@media(max-width: 991px) {
+  .project-template-description {
+    margin-top: var(--dl-space-space-threeunits);
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .project-template-content {
+    width: auto;
+    align-self: flex-start;
+  }
+  .project-template-text1 {
+    gap: var(--dl-space-space-unit);
+  }
+  .project-template-paragraph {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+@media(max-width: 767px) {
+  .project-template-text {
+    font-size: 40px;
+  }
+  .project-template-image {
+    height: 371px;
+  }
+  .project-template-content {
+    width: auto;
+  }
+  .project-template-text1 {
+    width: auto;
+  }
+  .project-template-paragraph {
+    width: auto;
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+@media(max-width: 479px) {
+  .project-template-image {
+    height: auto;
+  }
+  .project-template-pasted-image {
+    width: 100%;
+    height: auto;
+  }
+}
